@@ -1,9 +1,10 @@
-public class Exercises {
+    public class Exercises {
 
     /*
         complete this function to check if the input number is prime or not
      */
     public boolean isPrime(long n) {
+        
         // todo
         return false;
     }
