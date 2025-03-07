@@ -1,14 +1,16 @@
+package test.java;
+
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class TestTriangle {
-    static Exercises ex;
+    static main.java.Exercises ex;
 
     @BeforeAll
     static void setUp() {
-        ex = new Exercises();
+        ex = new main.java.Exercises();
     }
 
     @Test
